@@ -11,6 +11,7 @@ return [
             "url_status" => [
                 "true"
             ],
+            "db_name" => "dabakan",
             "name" => "ООО \"Софт-Альянс\""
         ],
         [
@@ -20,6 +21,7 @@ return [
             "url_status" => [
                 "true"
             ],
+            "db_name" => "dbalans",
             "name" => "ООО ГК \"Баланс\""
         ],
         [
@@ -31,6 +33,7 @@ return [
                 "true",
                 "true",
             ],
+            "db_name" => "dbelgorod",
             "name" => "ООО \"Проект-Трейд\""
         ],
         [
@@ -42,6 +45,7 @@ return [
                 "false",
                 "true",
             ],
+            "db_name" => "dbnkplus",
             "name" => "ООО \"БНК-Плюс\""
         ],
         [
@@ -53,6 +57,7 @@ return [
                 "true",
                 "true",
             ],
+            "db_name" => "dcherepovec",
             "name" => "ООО \"ИНФОРМСТРОЙПРОЕКТ\""
         ],
         [
@@ -64,6 +69,7 @@ return [
                 "true",
                 "true",
             ],
+            "db_name" => "dcntd_ryazan",
             "name" => "ООО \"Техэксперт-Рязань\""
         ],
         [
@@ -73,6 +79,7 @@ return [
             "url_status" => [
                 "true",
             ],
+            "db_name" => "dcntd21",
             "name" => "ООО ЦНТД \"XXI век\""
         ],
         [
@@ -82,6 +89,7 @@ return [
             "url_status" => [
                 "true",
             ],
+            "db_name" => "decosoft",
             "name" => "ЦНТДиСН"
         ],
         [
@@ -91,6 +99,7 @@ return [
             "url_status" => [
                 "true",
             ],
+            "db_name" => "dexpertsoft",
             "name" => "Техэксперт Тверь/Эксперт-софт"
         ],
         [
@@ -102,6 +111,7 @@ return [
                 "true",
                 "true",
             ],
+            "db_name" => "dinformpro",
             "name" => "ГК Информпроект"
         ],
         [
@@ -113,6 +123,7 @@ return [
                 "true",
                 "true",
             ],
+            "db_name" => "dintels",
             "name" => "ООО \"Интеллект-Софт\""
         ],
         [
@@ -122,6 +133,7 @@ return [
             "url_status" => [
                 "true",
             ],
+            "db_name" => "dirkutsk",
             "name" => "ООО \"ЦНТД\""
         ],
         [
@@ -133,6 +145,7 @@ return [
                 "true",
                 "false"
             ],
+            "db_name" => "dkemerovo",
             "name" => "ООО Компания Кодекс (ГК ЛидерИнфо)"
         ],
         [
@@ -144,6 +157,7 @@ return [
                 "true",
                 "true"
             ],
+            "db_name" => "dkmi",
             "name" => "ГК \"КодексМедиаИнформ\""
         ],
         [
@@ -153,6 +167,7 @@ return [
             "url_status" => [
                 "true",
             ],
+            "db_name" => "dkodeks_a",
             "name" => "ООО ИПП \"Кодекс-А\""
         ],
         [
@@ -164,6 +179,7 @@ return [
                 "false",
                 "true",
             ],
+            "db_name" => "dmytischi",
             "name" => "ООО ТехИнформ"
         ],
         [
@@ -175,6 +191,7 @@ return [
                 "true",
                 "true",
             ],
+            "db_name" => "dlbit",
             "name" => "ГК \"Л-БИТ\""
         ],
         [
@@ -186,6 +203,7 @@ return [
                 "true",
                 "true",
             ],
+            "db_name" => "dmsk",
             "name" => "ЗАО \"Кодекс-МСК\""
         ],
         [
@@ -195,6 +213,7 @@ return [
             "url_status" => [
                 "true",
             ],
+            "db_name" => "dnovosibirsk",
             "name" => "ООО \"Кодекс-Сибирь\""
         ],
         [
@@ -204,6 +223,7 @@ return [
             "url_status" => [
                 "true",
             ],
+            "db_name" => "domsk",
             "name" => "ООО \"Информационное агентство \"Деловой Омск\""
         ],
         [
@@ -213,6 +233,7 @@ return [
             "url_status" => [
                 "true",
             ],
+            "db_name" => "dpskov",
             "name" => "ООО \"Информационный центр Завет\""
         ],
         [
@@ -224,6 +245,7 @@ return [
                 "true",
                 "true",
             ],
+            "db_name" => "dsamara",
             "name" => "ООО \"Связьинвест\""
         ],
         [
@@ -235,6 +257,7 @@ return [
                 "true",
                 "false",
             ],
+            "db_name" => "dsmolensk",
             "name" => "ООО \"ЦНТД\""
         ],
         [
@@ -244,6 +267,7 @@ return [
             "url_status" => [
                 "true",
             ],
+            "db_name" => "dsochi",
             "name" => "ООО \"Партнер\""
         ],
         [
@@ -253,6 +277,7 @@ return [
             "url_status" => [
                 "true",
             ],
+            "db_name" => "dsoftav",
             "name" => "ООО ЦИР \"Софт-АВ\""
         ],
         [
@@ -262,6 +287,7 @@ return [
             "url_status" => [
                 "true",
             ],
+            "db_name" => "dsofter",
             "name" => "Внедренческий Центр \"ТехноСофт\""
         ],
         [
@@ -271,6 +297,7 @@ return [
             "url_status" => [
                 "true",
             ],
+            "db_name" => "dsyktyvkar",
             "name" => "ООО \"СтройСофт\"",
         ],
         [
@@ -280,6 +307,7 @@ return [
             "url_status" => [
                 "true",
             ],
+            "db_name" => "dsyzran",
             "name" => "ООО \"Радуга Информ Сервис\""
         ],
         [
@@ -289,6 +317,7 @@ return [
             "url_status" => [
                 "true",
             ],
+            "db_name" => "dusurisk",
             "name" => "ИП Пронькина М.Э."
         ],
         [
@@ -298,6 +327,7 @@ return [
             "url_status" => [
                 "true",
             ],
+            "db_name" => "dvladimir",
             "name" => "ООО \"Грикос\""
         ],
         [
@@ -307,6 +337,7 @@ return [
             "url_status" => [
                 "true",
             ],
+            "db_name" => "dvladivostok",
             "name" => "ООО \"Догада\""
         ],
         [
@@ -316,6 +347,7 @@ return [
             "url_status" => [
                 "true",
             ],
+            "db_name" => "dvolgograd",
             "name" => "ООО \"Техэксперт-Волгоград\""
         ],
         [
@@ -325,6 +357,7 @@ return [
             "url_status" => [
                 "true",
             ],
+            "db_name" => "dvologda",
             "name" => "ООО \"АСКО\""
         ],
         [
@@ -334,6 +367,7 @@ return [
             "url_status" => [
                 "true",
             ],
+            "db_name" => "dwirard",
             "name" => "ООО \"Визард\""
         ],
         [
@@ -343,24 +377,31 @@ return [
             "url_status" => [
                 "true",
             ],
+            "db_name" => "duso",
             "name" => "ЗАО \"Информационная компания \"Кодекс\""
         ],
         [
             "url" => [
                 "http://akomsurgut.ru/",
+                "http://dsurgut.cntd.ru:8080/",
             ],
             "url_status" => [
-                "true",
+                "false",
+                "false",
             ],
+            "db_name" => "",
             "name" => "ООО \"АКОМ+\""
         ],
         [
             "url" => [
-                "http://aldan116.ru/"
+                "http://aldan116.ru/",
+                "http://daldan.cntd.ru:8080/",
             ],
             "url_status" => [
-                "true",
+                "false",
+                "false",
             ],
+            "db_name" => "",
             "name" => "ООО \"Алдан\""
         ],
         [
@@ -372,6 +413,7 @@ return [
                 "true",
                 "true",
             ],
+            "db_name" => "daltcti",
             "name" => "ООО Алтайский центр технической информации Техэксперт"
         ],
         [
@@ -381,6 +423,7 @@ return [
             "url_status" => [
                 "true",
             ],
+            "db_name" => "",
             "name" => "ООО \"БЭСТ-КОНСАЛТИНГ\""
         ],
         [
@@ -392,6 +435,7 @@ return [
                 "true",
                 "true",
             ],
+            "db_name" => "dpenza",
             "name" => "ООО \"РЦ \"КОДЕКС-Пенза\""
         ],
         [
@@ -401,6 +445,7 @@ return [
             "url_status" => [
                 "true",
             ],
+            "db_name" => "",
             "name" => "ООО \"Браво Софт\""
         ],
         [
@@ -412,6 +457,7 @@ return [
                 "true",
                 "true",
             ],
+            "db_name" => "",
             "name" => "Информационный Центр \"КОДЕКС\""
         ],
         [
@@ -423,6 +469,7 @@ return [
                 "true",
                 "true",
             ],
+            "db_name" => "dkrasnoyarsk",
             "name" => "ООО &quot;Информационный центр &quot;ПРОФИТ&quot;"
         ],
         [
@@ -434,6 +481,7 @@ return [
                 "true",
                 "true",
             ],
+            "db_name" => "",
             "name" => "ООО ЦНТД - Бизнес Альянс"
         ],
         [
@@ -443,6 +491,7 @@ return [
             "url_status" => [
                 "true",
             ],
+            "db_name" => "",
             "name" => "ООО \"Ланвер\""
         ],
         [
@@ -452,6 +501,7 @@ return [
             "url_status" => [
                 "true",
             ],
+            "db_name" => "",
             "name" => "ООО \"ЦНТД\""
         ],
         [
@@ -463,6 +513,7 @@ return [
                 "true",
                 "false"
             ],
+            "db_name" => "",
             "name" => "ООО \"Двина-Софт ИТ\""
         ],
         [
@@ -474,6 +525,7 @@ return [
                 "true",
                 "false"
             ],
+            "db_name" => "",
             "name" => "ООО \"Единый центр информации\""
         ],
         [
@@ -483,6 +535,7 @@ return [
             "url_status" => [
                 "true",
             ],
+            "db_name" => "",
             "name" => "ООО \"Экомаш инфо\""
         ],
         [
@@ -492,6 +545,7 @@ return [
             "url_status" => [
                 "true",
             ],
+            "db_name" => "",
             "name" => "ООО \"Форком\""
         ],
         [
@@ -501,6 +555,7 @@ return [
             "url_status" => [
                 "true",
             ],
+            "db_name" => "dstandart",
             "name" => "ГК Стандарт"
         ],
         [
@@ -510,6 +565,7 @@ return [
             "url_status" => [
                 "true",
             ],
+            "db_name" => "",
             "name" => "Кодекс ГРАД"
         ],
         [
@@ -521,6 +577,7 @@ return [
                 "true",
                 "false"
             ],
+            "db_name" => "",
             "name" => "ООО \"Информсервис\""
         ],
         [
@@ -532,6 +589,7 @@ return [
                 "true",
                 "false"
             ],
+            "db_name" => "",
             "name" => "ООО \"ЦНТД Кодекс Люкс\""
         ],
         [
@@ -543,6 +601,7 @@ return [
                 "true",
                 "false"
             ],
+            "db_name" => "",
             "name" => "ООО \"ИБМ\""
         ],
         [
@@ -554,6 +613,7 @@ return [
                 "true",
                 "false"
             ],
+            "db_name" => "",
             "name" => "ООО \"Компания Кодекс\""
         ],
         [
@@ -565,6 +625,7 @@ return [
                 "false",
                 "false"
             ],
+            "db_name" => "",
             "name" => "ЗАО ТЕРМИКА",
         ],
         [
@@ -576,6 +637,7 @@ return [
                 "true",
                 "true"
             ],
+            "db_name" => "dnovur",
             "name" => "ООО Новый уровень"
         ],
         [
@@ -585,6 +647,7 @@ return [
             "url_status" => [
                 "false",
             ],
+            "db_name" => "",
             "name" => "ООО \"Кодекс-Эксперт\"",
         ],
         [
@@ -594,6 +657,7 @@ return [
             "url_status" => [
                 "false",
             ],
+            "db_name" => "kt032",
             "name" => "ООО Агентство правовой информации КОДЕКС"
         ],
         [
@@ -607,6 +671,7 @@ return [
                 "true",
                 "false",
             ],
+            "db_name" => "",
             "name" => "ООО &quot;Решения Для Бизнеса&quot;"
         ],
         [
@@ -616,6 +681,7 @@ return [
             "url_status" => [
                 "true",
             ],
+            "db_name" => "",
             "name" => "ООО \"Софтмаркет\""
         ],
         [
@@ -625,6 +691,7 @@ return [
             "url_status" => [
                 "true",
             ],
+            "db_name" => "",
             "name" => "ООО ЦНТИ Техэксперт"
         ],
         [
@@ -636,6 +703,7 @@ return [
                 "true",
                 "false"
             ],
+            "db_name" => "",
             "name" => "ООО \"Сервисный Центр \"Кодекс\""
         ],
         [
@@ -647,6 +715,7 @@ return [
                 "true",
                 "false"
             ],
+            "db_name" => "",
             "name" => "ООО Техэксперт - Кодекс-Люкс"
         ],
         [
@@ -658,6 +727,7 @@ return [
                 "true",
                 "true"
             ],
+            "db_name" => "dryazan",
             "name" => "ООО &quot;Техэксперт-Ока&quot;"
         ],
         [
@@ -669,6 +739,7 @@ return [
                 "true",
                 "true"
             ],
+            "db_name" => "dtomsk",
             "name" => "ООО &quot;Кодекс&quot;"
         ],
         [
@@ -680,6 +751,7 @@ return [
                 "true",
                 "true"
             ],
+            "db_name" => "dsalehard",
             "name" => "ИП Тарагупта - Информационно Сервисный Центр «EXPERT SOFT»"
         ],
         [
@@ -691,6 +763,7 @@ return [
                 "true",
                 "false"
             ],
+            "db_name" => "dvlad",
             "name" => "Кодекс-Приморье"
         ],
         [
@@ -702,6 +775,7 @@ return [
                 "true",
                 "true"
             ],
+            "db_name" => "",
             "name" => "Информация Будущего"
         ],
         [
@@ -713,6 +787,7 @@ return [
                 "true",
                 "true"
             ],
+            "db_name" => "",
             "name" => "ООО Информразвитие"
         ],
         [
@@ -724,6 +799,7 @@ return [
                 "true",
                 "true"
             ],
+            "db_name" => "dfryaz",
             "name" => "Лидер Инфо"
         ],
         [
@@ -735,6 +811,7 @@ return [
                 "true",
                 "true"
             ],
+            "db_name" => "dobninsk",
             "name" => "Группа компаний «Современные технологии»"
         ],
         [
@@ -746,6 +823,7 @@ return [
                 "true",
                 "true"
             ],
+            "db_name" => "direferent",
             "name" => "ООО Информационное Агентство «Референт»"
         ],
         [
@@ -757,6 +835,7 @@ return [
                 "true",
                 "false"
             ],
+            "db_name" => "drostov",
             "name" => "ИП Денисенко А. Б."
         ],
         [
@@ -766,6 +845,7 @@ return [
             "url_status" => [
                 "true",
             ],
+            "db_name" => "dtehnolet",
             "name" => "ООО Техноллект"
         ],
         [
@@ -775,6 +855,7 @@ return [
             "url_status" => [
                 "true",
             ],
+            "db_name" => "dtehnolet",
             "name" => "ООО Фирма Миранда"
         ],
         [
@@ -786,6 +867,7 @@ return [
                 "true",
                 "true",
             ],
+            "db_name" => "",
             "name" => "ООО Техэксперт-Проф"
         ],
         [
@@ -797,6 +879,7 @@ return [
                 "true",
                 "true",
             ],
+            "db_name" => "duniklass",
             "name" => "ЗАО Международный Интеллектуальный Центр Уникласс"
         ],
         [
@@ -808,6 +891,7 @@ return [
                 "true",
                 "true",
             ],
+            "db_name" => "dviborg",
             "name" => "ООО Центр правовой и нормативно-технической информации"
         ],
         [
@@ -817,6 +901,7 @@ return [
             "url_status" => [
                 "true",
             ],
+            "db_name" => "drekbiz",
             "name" => "ООО Рекбиз"
         ],
         [
@@ -826,6 +911,7 @@ return [
             "url_status" => [
                 "true",
             ],
+            "db_name" => "dmicrocom",
             "name" => "ООО \"Микроком\""
         ],
         [
@@ -835,6 +921,7 @@ return [
             "url_status" => [
                 "true",
             ],
+            "db_name" => "dzlatprof",
             "name" => "ООО «Златпроф»"
         ],
         [
@@ -844,6 +931,7 @@ return [
             "url_status" => [
                 "true",
             ],
+            "db_name" => "kodeks21",
             "name" => "ООО «ЦНТД Кодекс21»"
         ],
         [
@@ -855,6 +943,7 @@ return [
                 "true",
                 "true"
             ],
+            "db_name" => "dkazan",
             "name" => "ООО «ГрандЭкспертКазань»"
         ],
         [
@@ -864,6 +953,7 @@ return [
             "url_status" => [
                 "false",
             ],
+            "db_name" => "dekaterinburg",
             "name" => "ООО Компания \"Кодекс-Люкс\""
         ]
 

@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Parser;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Input;
+use Illuminate\Support\Facades\DB;
 use Carbon\Carbon;
 use App\Helpers\CMS;
 use App\Models\Sites;
@@ -64,9 +65,26 @@ class ParserController extends Controller
 
     public function parseTest()
     {
-        $url = "http://novateh.ru/";
-        $html = new \Htmldom("http://novateh.ru/contacts/");
-        $contacts = CMS::parseNovatech($html, $url);
+        $content_arr = [];
+        $actual_info = [];
+        $domains = CMS::getDomains();
+
+        foreach ($domains as $domain) {
+            $info = CMS::getActualDistrInfo($domain);
+            if ($info != null){
+                array_push($actual_info,  $info);
+            }
+        }
+
+        $year2015 = strtotime("01 March 2015");
+        foreach ($actual_info  as $key => $conf){
+            config(['database.connections.dsites.database' => $conf['db_name']]);
+            echo config('database.connections.dsites.database')."<br>";
+            $news = DB::connection('dsites')->table('modx_site_content')->select('content')->where('createdon', ">=", $year2015)->get()->toArray();
+            $content_arr[$key]['id'] = $conf['id'];
+            $content_arr[$key]['content'] = $news;
+        }
+
     }
 
     public function getFilialsInfo()
@@ -79,8 +97,6 @@ class ParserController extends Controller
 
         $domains = CMS::getDomains();
         $result = [];
-
-      // dd($domains);
 
 
         foreach ($domains as $key => $url){
@@ -151,6 +167,7 @@ class ParserController extends Controller
             }
         }
 
+        dd($result);
 
         $filter = ['телефон:', ];
         foreach ($result as $key => $contact){

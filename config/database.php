@@ -54,6 +54,21 @@ return [
             'engine' => null,
         ],
 
+        'dsites' => [
+            'driver' => env('DB_DSITES_CONNECTION'),
+            'host' => env('DB_DSITES_HOST'),
+            'port' => env('DB_DSITES_PORT'),
+            'database' => env('DB_DSITES_DATABASE'),
+            'username' => env('DB_DSITES_USERNAME'),
+            'password' => env('DB_DSITES_PASSWORD'),
+            'unix_socket' => env('DB_SOCKET', ''),
+            'charset' => 'utf8mb4',
+            'collation' => 'utf8mb4_unicode_ci',
+            'prefix' => '',
+            'strict' => true,
+            'engine' => null,
+        ],
+
         'pgsql' => [
             'driver' => 'pgsql',
             'host' => env('DS_LOCAL_DB_HOST'),

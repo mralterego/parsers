@@ -3,11 +3,32 @@
 namespace App\Helpers;
 
 use Illuminate\Support\Facades\DB;
+use App\Models\Sites;
 use Cache;
 
 
 class CMS
 {
+    public static function domains($active)
+    {
+        $actual_info = [];
+        $domains = CMS::getDomains();
+        foreach ($domains as $domain) {
+            $info = CMS::getActualDistrInfo($domain);
+            if ($active == false){
+                if ($info == null){
+                    array_push($actual_info, $domain);
+                }
+            } else {
+                if ($info != null){
+                    array_push($actual_info, $domain);
+                }
+            }
+
+        }
+        return $actual_info;
+    }
+
     public static function getDomains()
     {
         $distrs = config('distrs.distrs');
@@ -35,6 +56,20 @@ class CMS
         foreach ($distrs as $d){
             if (in_array($url, $d['url'])){
                 return $d['name'];
+            }
+        }
+    }
+
+    public static function getActualDistrInfo($url)
+    {
+        $distrs = config('distrs.distrs');
+        foreach ($distrs as $d){
+            if (in_array($url, $d['url']) AND $d['db_name'] != "") {
+                $existing_id = Sites::where("title", $d['name'])->pluck('id')->toArray();
+                return [
+                    'id' => $existing_id[0],
+                    'db_name' => $d['db_name']
+                ];
             }
         }
     }
